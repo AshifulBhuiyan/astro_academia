@@ -1,0 +1,18 @@
+---
+import ProjectsList from "@/components/ui/ProjectsList.astro"; 
+
+const testProjects = [
+    {
+        title: "Test Project 1",
+        description: "This is a test project.",
+        link: "https://github.com/yourusername/test-project-1", // Replace with actual GitHub link
+    },
+    {
+        title: "Test Project 2",
+        description: "This is another test project.",
+        link: "https://github.com/yourusername/test-project-2", // Replace with actual GitHub link
+    },
+];
+---
+
+<ProjectsList listTitle="Test Projects" listItems={testProjects} />

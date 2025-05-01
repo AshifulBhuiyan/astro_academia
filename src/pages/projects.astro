@@ -1,0 +1,22 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { projects } from "@/data/projects"; // Import the projects data
+import { otherProjects } from "@/data/otherprojects"; // Import the projects data
+import ProjectsList from "@/components/ui/ProjectsList.astro"; // Import the ProjectsList component
+
+---
+
+
+<Layout title="Projects">
+  <section class='past-projects'>
+  <h2 class='text-3xl font-bold mb-4'>Academic Projects</h2>
+  <p class='text-lg mb-6'>
+    Here are some of the projects I have worked on in the past. Each project reflects my commitment to learning.
+  </p>
+  <ProjectsList listTitle="" listItems={projects} />
+    <h2 class='text-3xl font-bold mb-4'>Other Projects</h2>
+  <p class='text-lg mb-6'>
+    Here are some of the projects that are not purely academic.
+  </p>
+  <ProjectsList listTitle="" listItems={otherProjects} />
+</Layout>

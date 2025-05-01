@@ -1,19 +1,23 @@
 export const profile = {
-	fullName: 'Your Name',
+	fullName: 'Ashiful Bhuiyan',
 	title: '',
 	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	author_name: 'Ashiful Bhuiyan', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		 { title: 'Physics', description: 'Theoretical and Computational study with a focus on General relativity, High Energy Physics, and Statistical Mechanics.', field: 'physics' },
+		 { title: 'Math', description: 'Chaotic Systems, Combinatorics, Functional Analysis, Numerical Analysis, Number Theory', field: 'engineering'},
+		 { title: 'Data Science', description: 'Machine Learning, Artificial Intelligence, Deep Reinforcement Learning and Model Optimization', field: 'computer-science'},
+
 	],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
+	email: 'ashiful@conquestace.com',
 	linkedin: '',
-	x: 'https://www.x.com/',
-	github: '',
+	bluesky: 'https://bsky.app/profile/conquestace.bsky.social',
+	github: 'https://github.com/ashifulbhuiyan',
+	huggingface:'https://huggingface.co/ConquestAce/',
 	gitlab: '',
 	scholar: '',
 	inspire: '',
@@ -32,7 +36,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
+	default_title: 'Ashiful Bhuiyan',
+	default_description: 'Portfolio.',
 	default_image: '/images/astro-academia.png',
 }

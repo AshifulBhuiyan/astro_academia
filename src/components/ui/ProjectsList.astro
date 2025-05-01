@@ -1,0 +1,52 @@
+---
+interface Props {
+  listTitle: string;
+  listItems: {
+    title: string;
+    description: string;
+    link?: string;
+  }[];
+}
+import HuggingFaceIcon from "@/components/icons/HuggingFaceIcon.astro";
+const { listTitle, listItems } = Astro.props;
+---
+
+<section class="py-6 border-t">
+  <h2 class="text-3xl font-bold mb-8">{listTitle}</h2>
+  <div class="space-y-6">
+    {listItems.map((item) => {
+      const isGitHub = item.link?.includes("github.com");
+      const isHuggingFace = item.link?.includes("huggingface.co");
+
+      return (
+        <div class="p-6 rounded-lg text-base-content bg-base-200">
+          <h3 class="text-xl font-semibold mb-2 flex items-center gap-2">
+            {item.link ? (
+              <a 
+                href={item.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="hover:text-accent transition-colors duration-200 flex items-center gap-2"
+              >
+                {item.title}
+                {isGitHub && (
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-current text-gray-400 hover:text-accent" viewBox="0 0 24 24">
+                    <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.18.08 1.8 1.22 1.8 1.22 1.04 1.78 2.74 1.27 3.41.97.11-.75.41-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.3 1.19-3.12-.12-.29-.52-1.45.11-3.02 0 0 .97-.31 3.18 1.19a11.1 11.1 0 012.9-.39c.99 0 1.99.13 2.9.39 2.2-1.5 3.18-1.19 3.18-1.19.63 1.57.23 2.73.11 3.02.74.82 1.19 1.86 1.19 3.12 0 4.43-2.71 5.41-5.29 5.69.42.36.79 1.1.79 2.22 0 1.6-.01 2.89-.01 3.29 0 .31.21.68.8.56A10.5 10.5 0 0023.5 12c0-6.27-5.23-11.5-11.5-11.5z" />
+                  </svg>
+                )}
+{isHuggingFace && (
+  <HuggingFaceIcon className="h-5 w-5 text-gray-400 hover:text-accent" />
+)}
+              </a>
+            ) : (
+              <span class="text-gray-400 italic">{item.title}</span>
+            )}
+          </h3>
+          <p class="text-base">{item.description}</p>
+        </div>
+      );
+    })}
+  </div>
+</section>
+<section class="py-6 border-t">
+</section>
