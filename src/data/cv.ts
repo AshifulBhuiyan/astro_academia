@@ -34,7 +34,7 @@ export const education = [
 		time: 'Sept 2024 – Present',
 		degree: '',
 		location: 'Toronto, ON',
-		description: 'Completed advanced coursework in Data Science (A+) and Elementary Particle Physics (B) with a focus on preparing for graduate studies in applied mathematics and physics.',
+		description: 'Completed advanced coursework in Data Science (A+) and Elementary Particle Physics (B+) with a focus on preparing for graduate studies in applied mathematics and physics.',
 	},
 	{
 		school: 'Trent University',
