@@ -41,7 +41,7 @@ export const education = [
 		time: '2015 – 2019',
 		degree: 'Honours B.Sc. in Mathematical Physics',
 		location: 'Peterborough, ON',
-		description: 'Minor in Biology. Relevant coursework includes Statistical Mechanics (A), Advanced Numerical Methods (A), and Combinatorics (A−).',
+		description: 'Minor in Biology. Coursework includes Statistical Mechanics (A), Advanced Numerical Methods (A), and Combinatorics (A−).',
 	},
 ];
 
