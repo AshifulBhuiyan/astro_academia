@@ -48,19 +48,16 @@ export const education = [
 export const skills = [
 	{
 		title: 'Programming & Tools',
-		description: 'Python, NumPy, scikit-learn, PyTorch, Hugging Face Transformers, Astro, LaTeX, Jupyter',
+		description: 'Python, PyTorch, TensorFlow, Astro, Computer Vision',
 	},
 	{
 		title: 'Machine Learning',
-		description: 'Regression, Classification, Neural Networks, Reinforcement Learning, Stable Diffusion model merging',
+		description: 'Regression, Classification, Neural Networks, Reinforcement Learning, Training, Fine-tuning, mixing of diffusion models, ',
 	},
-	{
-		title: 'Physics & Math',
-		description: 'A lot',
-	},
+
 	{
 		title: 'Education & Outreach',
-		description: 'Curriculum design, STEM tutoring, instructional leadership, student mentorship',
+		description: 'Curriculum design, STEM tutoring, instructional leadership, student mentorship, Career guidance',
 	},
 ];
 
