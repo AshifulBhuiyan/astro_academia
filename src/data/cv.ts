@@ -71,3 +71,28 @@ export const publications = [
 		abstract: 'A presentation exploring the theory and applications of integer partitions, including generating functions, Ramanujan’s congruences, and statistical mechanics connections. Covered results by Euler, Hardy, Ramanujan, and Ken Ono.',
 	},
 ];
+export const courses = [
+	{
+			title: 'Graduate-level Physics',
+			description: 'Particle Physics',
+	},
+	{
+			title: 'Physics',
+			description: 'Quantum Mechanics, Classical Mechanics, Statistical Mechanics, Electrodynamics, Condensed Matter Physics, ',	
+	},
+	{
+			title: 'Graduate-level Math',
+			description: 'Complex Analysis, Data Science, Advanced Numerical Methods, ',	
+	},
+
+	{
+			title: 'Math',
+			description: 'Calculus on Manifolds, Combinatorics, Partial Differential Equations, Metric Spaces and Topology, Mathematical Statistics, Methods of Applied Mathematics,  ',	
+	},
+
+	{
+			title: 'Biology',
+			description: 'Microbiology, Evolution, Cell Biology, Genetics, Anatomy and Physiology, ',	
+	},
+];
+

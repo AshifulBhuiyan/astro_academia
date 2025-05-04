@@ -1,6 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro'
-import { experiences, education, skills, publications } from '../data/cv'
+import { experiences, education, skills, publications, courses } from '../data/cv'
 import CvTimeline from '@/components/ui/CvTimeline.astro'
 
 import type { Experience, Education, Publication } from '../types/cv'
@@ -93,4 +93,12 @@ if (publications.length > 0) {
 			</section>
 		)
 	}
+		{
+		courses.length > 0 && (
+			<section class='mb-12'>
+				<List listTitle='Courses' listItems={courses}/>
+			</section>
+		)
+	}
+
 </Layout>
