@@ -1,6 +1,13 @@
 
 export const projects = [
 
+        {
+  title: "Natural Convection and Heat Transfer in Enclosures: Numerical and Analytical Solutions",
+  description: "Developed a comprehensive Python toolkit for simulating 2D natural convection in rectangular enclosures, considering both clear fluids and porous media. The project numerically solves the vorticity-streamfunction and energy equations under various thermal boundary conditions, enclosure orientations, and aspect ratios using the finite difference method and SOR iterative solvers. Simulations systematically explore the influence of Rayleigh, Prandtl, and Darcy numbers, and calculate key metrics such as the average Nusselt number for different scenarios. In addition to numerical work, the project implements and visualizes exact analytical solutions for temperature and concentration fields in elliptic domains, and verifies these solutions symbolically. Results are visualized using Matplotlib, with code modules enabling rapid investigation of heat transfer enhancement strategies in engineering systems. Full code, data, and analysis notebooks are available.",
+  link: "https://github.com/AshifulBhuiyan/",
+      },
+
+
     {
         title: "Two-Body Decay Simulations",
         description: "Simulating the decay process of neutral pions (π⁰ → γγ) using Python. Generated synthetic data using a uniform dsitribution and applied two-body kinematic analysis in both rest and lab frames. Used these results to explore momentum conservation and relativistic invariance",

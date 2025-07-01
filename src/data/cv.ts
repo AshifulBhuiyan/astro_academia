@@ -29,9 +29,18 @@ export const experiences = [
 	},
 ];
 export const education = [
+
+	{
+		school: 'McMaster University',
+		time: 'Sept 2025 – Present',
+		degree: 'M.Sc. Physics',
+		location: 'Hamilton, ON',
+		description: 'Pursuing a Master of Science in Physics with a focus on theoretical and computational physics.',
+	},
+
 	{
 		school: 'York University',
-		time: 'Sept 2024 – Present',
+		time: 'Sept 2024 – June 2025',
 		degree: '',
 		location: 'Toronto, ON',
 		description: 'Completed advanced coursework in Data Science (A+) and Elementary Particle Physics (B+) with a focus on preparing for graduate studies in applied mathematics and physics.',
