@@ -35,7 +35,7 @@ export const education = [
 		time: 'Sept 2025 – Present',
 		degree: 'M.Sc. Physics',
 		location: 'Hamilton, ON',
-		description: 'Pursuing a Master of Science in Physics with a focus on theoretical and computational physics.',
+		description: 'Pursuing a Master of Science in Physics with a focus on computational General Relativity.',
 	},
 
 	{
@@ -43,14 +43,14 @@ export const education = [
 		time: 'Sept 2024 – June 2025',
 		degree: '',
 		location: 'Toronto, ON',
-		description: 'Completed advanced coursework in Data Science',
+		description: 'Advanced coursework in Data Science',
 	},
 	{
 		school: 'Trent University',
 		time: '2015 – 2019',
 		degree: 'Honours B.Sc. in Mathematical Physics',
 		location: 'Peterborough, ON',
-		description: 'Minor in Biology. Coursework includes Statistical Mechanics (A), Advanced Numerical Methods (A), and Combinatorics (A−).',
+		description: 'Minor in Biology.',
 	},
 ];
 
