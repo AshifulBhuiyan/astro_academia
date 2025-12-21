@@ -1,0 +1,17 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { presentations } from "@/data/presentations"; // Import the projects data
+import ProjectsList from "@/components/ui/PresentationsList.astro"; // Import the ProjectsList component
+
+---
+
+
+<Layout title="Presentations">
+  <section class='past-projects'>
+  <h2 class='text-3xl font-bold mb-4'>Presentations</h2>
+  <p class='text-lg mb-6'>
+    Here are some of the presentations I have given in the past.
+  </p>
+  <ProjectsList listTitle="" listItems={presentations} />
+</Layout>
+
